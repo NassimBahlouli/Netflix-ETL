@@ -17,24 +17,24 @@ MySQL
 
 ## 📌 Étapes principales du pipeline :
 
-# 1- Extraction des données
+### 1- Extraction des données
 
 Téléchargement d’un dataset depuis Kaggle.
 
 Utilisation de l’API Kaggle pour automatiser l’extraction.
 
-# 2-Chargement dans Python
+### 2-Chargement dans Python
 
 Traitement des données avec Pandas.
 
 Connexion à la base MySQL avec SQLAlchemy.
 
-# 3-Chargement dans MySQL
+### 3-Chargement dans MySQL
 
 Création des tables nécessaires.
 
 Insertion des données dans la base de données MySQL.
 
-# 4-Transformation et analyse dans MySQL
+### 4-Transformation et analyse dans MySQL
 
 Écriture de requêtes SQL pour analyser et transformer les données.
