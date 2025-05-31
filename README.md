@@ -7,7 +7,9 @@ Je pars de l’extraction de données depuis Kaggle, que ce soit par télécharg
 
 Python
 
-Kaggle API
+SQL
+
+Kaggle Dataset
 
 Pandas
 
