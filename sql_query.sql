@@ -9,3 +9,13 @@ SELECT * FROM netflix_rawn LIMIT 1;
 
 
 
+SELECT * FROM netflix_raw ORDER BY title DESC;
+
+SELECT * FROM netflix_raw WHERE show_id = 's5023';
+
+
+--I. Vérification des doublons dans les attributs Show_ID 
+SELECT SHOW_ID, COUNT(*) AS DUPS_COUNT
+FROM NETFLIX_RAW
+GROUP BY SHOW_ID
+HAVING COUNT(*) > 1;
